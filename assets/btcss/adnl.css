@@ -1,0 +1,76 @@
+body{
+    background:url("../ourclg2.png") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+body h1{
+    font-weight: bolder;
+    color: rgb(20, 234, 9);
+    text-shadow: 2px 2px 3px black;
+}
+hr{
+    box-shadow: 1px 3px 7px black;
+    font-weight: bold;
+}
+.btn{
+    color: rgb(231, 97, 97);
+    font-weight:lighter;
+    background-color: transparent;
+}
+.btn:hover{
+    color: rgb(229, 110, 110);
+    font-weight:bold;
+    background-color: white;
+}
+
+a{
+    color: lime;
+    text-decoration:none;
+}
+a:hover{
+    color: lime;
+    color: rgb(0, 146, 236);
+    text-decoration:none;
+}
+.btn-group{
+    background-color: transparent;
+    border-color:transparent;
+   
+    box-shadow: 0px 0px 5px black;
+}
+.btn-group:hover{
+    background-color: rgba(0, 0, 0, 0.773);
+}
+.card{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.506);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   
+    outline: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 0px solid black;
+}
+.carousel-indicators{
+    bottom: -20px;
+  }
+.card-title{
+    color: blue;
+}
+.card-subtitle{
+    color:black
+}
+.card-subtitle{
+    color: black;
+}
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Welcome2ideaHUB</h1>
+    <button onclick= "myFunction()">Create Post</button>
+    <div id="myDIV" style="display:none">
+        <form class="form2" action="/create" method="post">
+             <label for="ideas">Drop Your Idea Here</label>
+            <textarea class="input2" name="postidea" rows="4" cols="50"></textarea>
+            <input type="submit" value="POST">
+        </form></div> 
+</body>
+</html>
+
+<script>
+function myFunction() {
+      
+      var x = document.getElementById('myDIV');
+      if (x.style.display ==="none") {
+        x.style.display ="block";
+      } else {
+        x.style.display ="none";
+      }
+    }
+</script>
